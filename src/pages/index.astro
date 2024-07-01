@@ -6,8 +6,10 @@ const workPages = await getCollection('goods');
 ---
 
 <Layout>
-<main>
-  {workPages.map(productPage => (<Goodscard title={productPage.data.title} href=`/works/${productPage.slug}` thumbnail={productPage.data.thumbnail} body={productPage.data.description} />
-))}
-</main>
+<div class="wrapper">
+  <main>
+      {workPages.map(productPage => (<Goodscard title={productPage.data.title} href=`/goods/${productPage.slug}` thumbnail={productPage.data.thumbnail} body={productPage.data.price} state={productPage.data.state} text={productPage.data.text}/>
+      ))}
+  </main>
+</div>
 </Layout>

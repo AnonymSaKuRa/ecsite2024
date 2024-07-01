@@ -1,10 +1,14 @@
 ---
-const { href, title, body, thumbnail } = Astro.props;
+const { href, title, body, thumbnail, state, text } = Astro.props;
+import "../style/style.scss";
 ---
-<article>
-<a href={href}>
-  <h2>{title}</h2>
-  <img src=`/images/${thumbnail}` alt={title} />
-  <p>{body}</p>
-</a>
+
+<article class="article">
+  <a href={href}>
+    <img src=`/images/${thumbnail}` alt={title} />
+    <h2>{title}</h2>
+    <p class="price">{body}</p>
+    <p class="state">{state}</p>
+    <p class="text">{text}</p>
+  </a>
 </article>
