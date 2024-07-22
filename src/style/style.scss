@@ -11,14 +11,25 @@ $breakpoints: (
     }
 }
 
-.wrapper {
-    margin: 10px 0;
+@mixin inner($w: (900/1189)*100%, $mw: 1180px) {
+    width: $w;
+    max-width: $mw;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    @include mq(md) {
-        display: flex;
-        justify-content: center;
-        margin: 50px;
-    }
+body {
+    margin: 0;
+}
+
+.wrapper {
+    @include inner(
+);
+width: 90%;
+
+@include mq(md) {
+    width: 75%;
+}
 }
 
 main {
@@ -35,25 +46,14 @@ main {
 .article {
     width: 45%;
     margin-bottom: 50px;
-    margin-right: 20px;
     flex-grow: 1;
     position: relative;
 
     @include mq(md) {
-        width: 30%;
+        width: 25%;
         margin-right: 50px;
-    }
 
-    &:nth-child(2n) {
-        margin-right: 0;
-
-        @include mq(md) {
-            margin-right: 50px;
-        }
-    }
-
-    &:nth-child(3n) {
-        @include mq(md) {
+        &:nth-child(3n) {
             margin-right: 0;
         }
     }
@@ -97,32 +97,96 @@ a {
 }
 
 footer {
+    margin-top: 100px;
     text-align: center;
 }
 
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include inner();
+    width: 90%;
+    margin-bottom: 100px;
+
+    @include mq(md) {
+        width: 75%;
+    }
 }
 
 h1 {
-    font-size: (24/16)+rem;
+    font-size: (18/16)+rem;
+
+    @include mq(md) {
+        font-size: (28/16)+rem;
+    }
 }
 
-ul {
+.nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
     padding-left: 0;
     list-style: none;
+
+    @include mq(md) {
+        font-size: (18/16)+rem;
+    }
 }
 
 li {
-    margin-right: 30px;
+    margin-right: 20px;
+
+    @include mq(md) {
+        margin-right: 30px;
+    }
 
     &:last-child {
         margin-right: 0;
+    }
+}
+
+.inner {
+    @include inner();
+    width: 90%;
+
+    @include mq(md) {
+        width: 75%;
+    }
+}
+
+.single {
+    @include inner();
+
+    .images {
+        @include mq(md) {
+            width: 50%;
+        }
+    }
+
+    .thumb {
+        width: 100%;
+    }
+
+    .mini {
+        width: 23%;
+
+        @include mq(md) {
+            width: 24%;
+        }
+    }
+
+    .flex {
+        @include mq(md) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .contents {
+        @include mq(md) {
+            width: 40%;
+        }
     }
 }

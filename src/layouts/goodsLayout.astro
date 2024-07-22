@@ -1,7 +1,42 @@
 ---
-const {frontmatter} = Astro.props;
+const { frontmatter } = Astro.props;
+import "../style/style.scss";
 ---
 
+<body>
+    <main class="single">
+        <div class="flex">
+            <div class="images">
+                <img
+                    class="thumb"
+                    src={frontmatter.thumbnail}
+                    alt={frontmatter.title}
+                />
+                <img
+                    class="mini"
+                    src="../../public/images/kabayakisan01.jpg"
+                    alt=""
+                />
+                <img
+                    class="mini"
+                    src="../../public/images/kabayakisan02.jpg"
+                    alt=""
+                />
+                <img
+                    class="mini"
+                    src="../../public/images/kabayakisan03.jpg"
+                    alt=""
+                />
+            </div>
+            <div class="contents">
+                <h2>{frontmatter.title}</h2>
+                <h3>商品説明</h3>
+                <p class="price">{frontmatter.price}</p>
+                <p class="text">{frontmatter.text}</p>
+            </div>
+        </div>
+    </main>
 
-<h2>{frontmatter.title}</h2>
+    <script src="../js/main.js"></script>
+</body>
 <slot />

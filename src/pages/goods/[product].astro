@@ -2,20 +2,19 @@
 import Layout from "../../layouts/Layout.astro";
 
 import goods from "../../data/goods.json";
-export const getStaticPaths = async() => {
+export const getStaticPaths = async () => {
   return goods.map(({ url }) => {
     return {
-      params: { product : url },
-    }
+      params: { product: url },
+    };
   });
 };
 const { product } = Astro.params;
-const goodsData = goods.find(({url}) => product === url);
-
+const goodsData = goods.find(({ url }) => product === url);
 ---
 
 <Layout>
-<p>{goodsData.name}</p>
-<p>{goodsData.price}</p>
-<img src=`/images/${goodsData.itemphotos[0]}`>
+  <p>{goodsData.name}</p>
+  <p>{goodsData.price}</p>
+  <img src=`/09_ecsite/images/${goodsData.itemphotos[0]}` />
 </Layout>
