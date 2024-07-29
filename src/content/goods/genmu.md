@@ -3,7 +3,7 @@ layout: ../../layouts/goodsLayout.astro
 title: ゲンムエンペラーシークレット
 text: ゲンムエンペラーシークレット版
 thumbnail: "/09_ecsite/images/genmu.jpg"
-subpic1: "/09_ecsite/images/dm-ura.jpg"
+subpic1: "/09_ecsite/images/genmu.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
 subpic3: "/09_ecsite/images/dm-ura.jpg"
 kinds: genmu

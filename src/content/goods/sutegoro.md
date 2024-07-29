@@ -3,7 +3,7 @@ layout: ../../layouts/goodsLayout.astro
 title: ステゴロカイザーcsプロモ
 text: ステゴロカイザーcsプロモ版
 thumbnail: "/09_ecsite/images/sutegoro.jpg"
-subpic1: "/09_ecsite/images/dm-ura.jpg"
+subpic1: "/09_ecsite/images/sutegoro.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
 subpic3: "/09_ecsite/images/dm-ura.jpg"
 kinds: sutegoro

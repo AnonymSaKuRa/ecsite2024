@@ -4,7 +4,7 @@ title: サイクルペディアスリーブ
 text: 世界で2000個のサイクルペディアスリーブ
 thumbnail: "/09_ecsite/images/pedhia2000.jpg"
 subpic1: "/09_ecsite/images/pedhia2000-hukuro.jpg"
-subpic2: "/09_ecsite/images/pedhia2000omote.jpg"
+subpic2: "/09_ecsite/images/pedhia2000-omote.jpg"
 subpic3: "/09_ecsite/images/pedhia2000.jpg"
 kinds: yochan
 price: 50円

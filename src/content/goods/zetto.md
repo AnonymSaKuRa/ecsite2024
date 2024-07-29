@@ -3,7 +3,7 @@ layout: ../../layouts/goodsLayout.astro
 title: レッドゾーンZ金トレジャー
 text: レッドゾーンZ金トレジャー版
 thumbnail: "/09_ecsite/images/zetto.jpg"
-subpic1: "/09_ecsite/images/dm-ura.jpg"
+subpic1: "/09_ecsite/images/zetto.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
 subpic3: "/09_ecsite/images/dm-ura.jpg"
 kinds: zetto

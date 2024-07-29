@@ -3,7 +3,7 @@ layout: ../../layouts/goodsLayout.astro
 title: ヒャクメ神アート
 text: ヒャクメ神アート版
 thumbnail: "/09_ecsite/images/hyakume.jpg"
-subpic1: "/09_ecsite/images/dm-ura.jpg"
+subpic1: "/09_ecsite/images/hyakume.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
 subpic3: "/09_ecsite/images/dm-ura.jpg"
 kinds: hyakume

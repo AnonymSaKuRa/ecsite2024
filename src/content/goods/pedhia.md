@@ -3,7 +3,7 @@ layout: ../../layouts/goodsLayout.astro
 title: サイクルペディア金トレジャー
 text: サイクルペディア金トレジャー版
 thumbnail: "/09_ecsite/images/pedhia.jpg"
-subpic1: "/09_ecsite/images/dm-ura.jpg"
+subpic1: "/09_ecsite/images/pedhia.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
 subpic3: "/09_ecsite/images/dm-ura.jpg"
 kinds: pedhia
