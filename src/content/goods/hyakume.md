@@ -7,7 +7,7 @@ subpic1: "/09_ecsite/images/hyakume.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
 subpic3: "/09_ecsite/images/dm-ura.jpg"
 kinds: hyakume
-price: 500円
+price: 600円
 state: 売り切れ
 id: 4710158-2
 colors: 赤色
