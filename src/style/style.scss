@@ -11,7 +11,7 @@ $breakpoints: (
     }
 }
 
-@mixin inner($w: (900/1189)*100%, $mw: 1180px) {
+@mixin inner($w: (900/1180)*100%, $mw: 1180px) {
     width: $w;
     max-width: $mw;
     margin-left: auto;
@@ -23,13 +23,13 @@ body {
 }
 
 .wrapper {
-    @include inner(
-);
-width: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 
-@include mq(md) {
-    width: 75%;
-}
+    @include mq("md") {
+        width: 75%;
+    }
 }
 
 main {
@@ -38,7 +38,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    @include mq(md) {
+    @include mq("md") {
         justify-content: flex-start;
     }
 }
@@ -49,7 +49,7 @@ main {
     flex-grow: 1;
     position: relative;
 
-    @include mq(md) {
+    @include mq("md") {
         width: 25%;
         margin-right: 50px;
 
@@ -75,7 +75,7 @@ main {
     .text {
         display: none;
 
-        @include mq(md) {
+        @include mq("md") {
             display: block;
         }
     }
@@ -105,20 +105,21 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include inner();
+    margin-right: auto;
+    margin-left: auto;
     width: 90%;
     margin-bottom: 100px;
 
-    @include mq(md) {
+    @include mq("md") {
         width: 75%;
     }
 }
 
 h1 {
-    font-size: (18/16)+rem;
+    font-size: 1.125rem;
 
-    @include mq(md) {
-        font-size: (28/16)+rem;
+    @include mq("md") {
+        font-size: 1.75rem;
     }
 }
 
@@ -130,15 +131,15 @@ h1 {
     padding-left: 0;
     list-style: none;
 
-    @include mq(md) {
-        font-size: (18/16)+rem;
+    @include mq("md") {
+        font-size: 1.125rem;
     }
 }
 
 li {
     margin-right: 20px;
 
-    @include mq(md) {
+    @include mq("md") {
         margin-right: 30px;
     }
 
@@ -148,19 +149,22 @@ li {
 }
 
 .inner {
-    @include inner();
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 
-    @include mq(md) {
+    @include mq("md") {
         width: 75%;
     }
 }
 
 .single {
-    @include inner();
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 
     .images {
-        @include mq(md) {
+        @include mq("md") {
             width: 50%;
         }
     }
@@ -172,20 +176,20 @@ li {
     .mini {
         width: 23%;
 
-        @include mq(md) {
+        @include mq("md") {
             width: 24%;
         }
     }
 
     .flex {
-        @include mq(md) {
+        @include mq("md") {
             display: flex;
             justify-content: space-between;
         }
     }
 
     .contents {
-        @include mq(md) {
+        @include mq("md") {
             width: 40%;
         }
     }
