@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
 title: リライフcsプロモ
-text: リライフcsプロモ
+text: リライフcsプロモ版
 thumbnail: "/09_ecsite/images/riraihu.jpg"
 subpic1: "/09_ecsite/images/dm-ura.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
