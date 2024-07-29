@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: ジャガイストシークレット金
+title: 邪幽 ジャガイスト (シークレット金)
 text: ジャガイストシークレット金版
 thumbnail: "/09_ecsite/images/jagaisuto.jpg"
 subpic1: "/09_ecsite/images/jagaisuto.jpg"

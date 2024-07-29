@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: ドルファディロム神アート
-text: 神アート版
+title: 聖魔連結王 ドルファディロム (神アート)
+text: ドルファディロム神アート版
 thumbnail: "/09_ecsite/images/dorufa.jpg"
 subpic1: "/09_ecsite/images/dorufa.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"

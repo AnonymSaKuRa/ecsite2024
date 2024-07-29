@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: ギフトファンフェスバージョン
-text: フェアリー・ギフトのファンフェス限定版
+title: フェアリー・ギフト (ファンフェス入場者特典)
+text: フェアリー・ギフトのファンフェス限定版(実際に参加してもらったもの)
 thumbnail: "/09_ecsite/images/gifuto.jpg"
 subpic1: "/09_ecsite/images/gifuto.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"

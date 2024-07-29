@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: 栄光ルピア金トレジャー
-text: 栄光ルピア筋トレジャーバージョン
+title: ボルシャック・栄光・ルピア (金トレジャー)
+text: 栄光ルピア金トレジャー版
 thumbnail: "/09_ecsite/images/eikourupia.jpg"
 subpic1: "/09_ecsite/images/eikourupia.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"

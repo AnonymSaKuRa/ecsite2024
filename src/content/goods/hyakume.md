@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: ヒャクメ神アート
-text: ヒャクメ神アート版
+title: 霊宝 ヒャクメ4 (神アート)
+text: ヒャクメ4神アート版
 thumbnail: "/09_ecsite/images/hyakume.jpg"
 subpic1: "/09_ecsite/images/hyakume.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"

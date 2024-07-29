@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: レッドゾーンZ金トレジャー
+title: 熱き侵略 レッドゾーンZ (金トレジャー)
 text: レッドゾーンZ金トレジャー版
 thumbnail: "/09_ecsite/images/zetto.jpg"
 subpic1: "/09_ecsite/images/zetto.jpg"

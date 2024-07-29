@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: リライフcsプロモ
+title: フェアリー・Re・ライフ (csプロモ)
 text: リライフcsプロモ版
 thumbnail: "/09_ecsite/images/riraihu.jpg"
 subpic1: "/09_ecsite/images/riraihu.jpg"

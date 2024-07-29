@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: ステゴロカイザーcsプロモ
-text: ステゴロカイザーcsプロモ版
+title: 闘争類喧嘩目 ステゴロカイザー / お清めシャラップ (csプロモ)
+text: ステゴロカイザーcsプロモ版(自力でベスト8まで行って取ってきた)
 thumbnail: "/09_ecsite/images/sutegoro.jpg"
 subpic1: "/09_ecsite/images/sutegoro.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"

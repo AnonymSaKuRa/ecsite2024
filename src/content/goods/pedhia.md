@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: サイクルペディア金トレジャー
+title: 龍素記号wD サイクルペディア (金トレジャー)
 text: サイクルペディア金トレジャー版
 thumbnail: "/09_ecsite/images/pedhia.jpg"
 subpic1: "/09_ecsite/images/pedhia.jpg"

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: 鬼丸ヘッドキャラプレミアムレア
-text: 鬼丸ヘッドのキャラプレミアム版
+title: 勝利宣言 鬼丸「覇」キャラプレミアムトレジャー
+text: 鬼丸「覇」のキャラプレミアム版
 thumbnail: "/09_ecsite/images/heddo.jpg"
 subpic1: "/09_ecsite/images/heddo.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"

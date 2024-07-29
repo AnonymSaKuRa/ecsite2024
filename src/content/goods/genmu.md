@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: ゲンムエンペラーシークレット
-text: ゲンムエンペラーシークレット版
+title: ∞龍ゲンムエンペラー (シークレット)
+text: ゲンムエンペラー絵柄つながるタイプのシークレット版
 thumbnail: "/09_ecsite/images/genmu.jpg"
 subpic1: "/09_ecsite/images/genmu.jpg"
 subpic2: "/09_ecsite/images/dm-ura.jpg"
